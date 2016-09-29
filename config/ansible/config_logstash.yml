@@ -13,4 +13,4 @@
       replace:
         regexp: "esoutput"
         replace: "{{ es_server }}"
-        dest: "/etc/logstash/conf.d/pre_processor_999_outputs.conf"
+        dest: "/etc/logstash/conf.d/processor_999_outputs.conf"
